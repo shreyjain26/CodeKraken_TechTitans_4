@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GreenSprout Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="..\css\styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-success sticky-top">
+    <a class="navbar-brand" href="#">GreenSprout Solutions</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#myVideo">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#donate">Donate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#vol">Volunteer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#leader">LeaderBoard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#satellite">Satellite</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#events">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#code">Code</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+
+  
+
+<div>
+<video autoplay muted loop class="video video-container"  id="myVideo" width="80%" height="70%">
+  <source src="..\images\video1.mp4" type="video/mp4">
+</video>
+<div class="overlay">
+  <h1 align="center" class="head">Welcome to GreenSprout Solutions</h1>
+</div>
+</div>
+
+
+<div class="colored-section" id="donate">
+
+  <h1 align="center">Plant a tree and plant a hope for the future...</h1>
+  <h2 align="center">By donating only ₹25 you can plant a tree </h2>
+  <br/>
+  <div class="center-container"><button type="button" class="btn btn-lg btn-success" onClick="location.href='donation.html'">Donate Now</button></div>
+</div>
+ 
+
+<div class="image-section" id="vol">
+  <h1 align="center">Become A Volunteer</h1>
+  <h1 align="center">And join us to make the Earth a better place to live</h1>
+<div class="center-container"><button   class="btn btn-danger button" onclick="location.href='regis.html'">Register Now</button></div>
+</div> 
+
+<div class="leader-section" id="leader">
+    <section class="main-content">
+    <div class="container">
+      <h1>Top Donors</h1>
+      <br>
+      <br>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="leaderboard-card">
+            <div class="leaderboard-card__top">
+              <h3 class="text-center">₹100000</h3>
+            </div>
+            <div class="leaderboard-card__body">
+              <div class="text-center">
+                <img src="..\images\plant.png" class="circle-img mb-2" alt="User Img">
+                <h5 class="mb-0">Dhruv Thanawala</h5>
+                <p class="text-muted mb-0">dhruv@gmail.com</p>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span><i class="fa fa-map-marker"></i> Bangalore</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="leaderboard-card leaderboard-card--first">
+            <div class="leaderboard-card__top">
+              <h3 class="text-center">₹120000</h3>
+            </div>
+            <div class="leaderboard-card__body">
+              <div class="text-center">
+                <img src="..\images\plant.png" class="circle-img mb-2" alt="User Img">
+                <h5 class="mb-0">Eshan Joshi</h5>
+                <p class="text-muted mb-0">eshanjoshi@gmail.com</p>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span><i class="fa fa-map-marker"></i>Mumbai</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="leaderboard-card">
+            <div class="leaderboard-card__top">
+              <h3 class="text-center">₹90000</h3>
+            </div>
+            <div class="leaderboard-card__body">
+              <div class="text-center">
+                <img src="..\images\plant.png" class="circle-img mb-2" alt="User Img">
+                <h5 class="mb-0">Atharva Kawtikwar</h5>
+                <p class="text-muted mb-0">atharva@gmail.com</p>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span><i class="fa fa-map-marker"></i> Bangalore</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <h4>All Donors</h4>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Status</th>
+            <th>Location</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img src="..\images\plant.png" class="circle-img circle-img--small mr-2" alt="User Img">
+                <div class="user-info__basic">
+                  <h5 class="mb-0">Prakash</h5>
+                  <p class="text-muted mb-0">@prks</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-baseline">
+                <h4 class="mr-1">₹75000</h4>
+              </div>
+            </td>
+            <td>Bihar</td>
+            <td align="center">prakash@gmail.com</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img src="..\images\plant.png" class="circle-img circle-img--small mr-2" alt="User Img">
+                <div class="user-info__basic">
+                  <h5 class="mb-0">Vaishnav Rao</h5>
+                  <p class="text-muted mb-0">@vaishnav</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-baseline">
+                <h4 class="mr-1">₹65000</h4>
+              </div>
+            </td>
+            <td>Bangalore</td>
+            <td align="center">vaishnav@gmail.com</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img src="..\images\plant.png" class="circle-img circle-img--small mr-2" alt="User Img">
+                <div class="user-info__basic">
+                  <h5 class="mb-0">Lucky Singh</h5>
+                  <p class="text-muted mb-0">@singh</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-baseline">
+                <h4 class="mr-1">₹45000</h4>
+              </div>
+            </td>
+            <td>Punjab</td>
+            <td align="center">lucky@gmail.com</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img src="..\images\plant.png" class="circle-img circle-img--small mr-2" alt="User Img">
+                <div class="user-info__basic">
+                  <h5 class="mb-0">Ram Iyer</h5>
+                  <p class="text-muted mb-0">@Ram</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-baseline">
+                <h4 class="mr-1">₹35000</h4>
+              </div>
+            </td>
+            <td>Chennai</td>
+            <td align="center">ramiyer@gmail.com</td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="d-flex align-items-center">
+                <img src="..\images\plant.png" class="circle-img circle-img--small mr-2" alt="User Img">
+                <div class="user-info__basic">
+                  <h5 class="mb-0">Anonymous</h5>
+                  <p class="text-muted mb-0">@anonymous</p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="d-flex align-items-baseline">
+                <h4 class="mr-1">₹30000</h4>
+              </div>
+            </td>
+            <td>Delhi</td>
+            <td align="center">-</td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<div class="image-section2" id="satellite">
+  <h1 align="center">Satellite Imaging</h1>
+  <h1 align="center">Take a look at the current trees and the air polution present in the world</h1>
+  <div class="center-container"><button align= "center" class="btn btn-light button1" onclick="window.open('https://akthegreat10.users.earthengine.app/view/global-tree-cover')">Tree Data</button></div>
+  <br>
+    <div class="center-container"><button align= "center" class="btn btn-light button2" onclick="window.open('https://akthegreat10.users.earthengine.app/view/global-air-pollution')">Air Data</button></div>
+</div> 
+
+
+<div class="white-section" id="events">
+  <h1 align="center">Participate in our lastest ongoing events!</h1>
+  <div class="center-container"><button type="button" class="btn btn-lg btn-success" onClick="location.href='events.html'">Join Events</button></div>
+  <br/>
+  <br/>
+  <h3 align="center">Want to host your own event?</h3>
+  <div class="center-container"><button type="button" class="btn btn-lg btn-success" onClick="location.href='comreg.html'">Host Events</button></div>
+</div>
+<div class="colored-section" id="code">
+  <h1 align="center">Want to grow plants in your locality?</h1>
+  <h2 align="center">But not sure where to start?</h2>
+  <h2 align="center">Dont worry we got that covered too!</h2>
+  <h1 align="center">Introducing GreenSprout Plant Suggestor</h1>
+</div>
+<div class="white-section">
+  <h2 align="center">A project by</h2>
+  <b><h1 align="center"> THE TECH TITANS</h1></b>
+  <h2 align="center">Armaan Shah, Atharva Kawtikwar, Eshan Joshi,Shrey Jain</h2>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
